@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: white;
+}
+
+.app {
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  color: #e50914;
+  margin-bottom: 30px;
+}
+
+.movie-form {
+  max-width: 450px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  background: #242424;
+  border-radius: 10px;
+}
+
+input,
+select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #e50914;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #b20710;
+}
+
+.filter {
+  max-width: 450px;
+  margin: 0 auto 30px;
+}
+
+.filter label {
+  display: block;
+  margin-top: 10px;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.movie-card {
+  overflow: hidden;
+  background: #242424;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 15px;
+}
+
+.movie-info h2 {
+  font-size: 20px;
+}
+
+.movie-info p {
+  line-height: 1.5;
+}
+
+.rating {
+  color: #ffd700;
+  font-weight: bold;
+}
